@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rabiel Lucero | Portfolio</title>
+
 
 <link rel="stylesheet" href="style.css">
 
@@ -16,7 +16,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
 <header>
 <nav>
 
-<h2 class="logo">Portfolio</h2>
+<h2 class="logo">MY PORTFOLIO</h2>
 
 <ul>
 <li><a href="#home">Home</a></li>
@@ -36,13 +36,15 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
 
 <div class="hero-text">
 
-<h1>Hello, I'm</h1>
+<h1>Hello everyone</h1>
 
 <h2>Rabiel Lucero</h2>
 
-<p>Computer Science Student</p>
+<h2>21 years old</h2>
 
-<p>Aspiring Software Developer | Web Developer</p>
+<p>BS COMPUTER SCIENCE</p>
+
+<p>Aspiring SK CHAIRMAN | WEB DEVELOPER</p>
 
 <a href="#projects" class="btn">View Projects</a>
 
@@ -50,8 +52,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
 
 <div class="hero-image">
 
-<img src="<img width="1512" height="2016" alt="picture profile" src="https://github.com/user-attachments/assets/75ec7423-20e7-481e-b97c-93585f349803" />
-" alt="Profile">
+<img width="1512" height="2016" alt="picture profile" src="https://github.com/user-attachments/assets/75ec7423-20e7-481e-b97c-93585f349803" />
 
 </div>
 
