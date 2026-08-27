@@ -1,186 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabiel Lucero | Portfolio</title>
 
+    <link rel="stylesheet" href="style.css">
 
-<link rel="stylesheet" href="style.css">
-
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
+
 <body>
 
+<!-- Navigation -->
+
 <header>
-<nav>
 
-<h2 class="logo">MY PORTFOLIO</h2>
+<nav class="navbar">
 
-<ul>
+<h2 class="logo">Rabiel.</h2>
+
+<ul class="nav-links">
+
 <li><a href="#home">Home</a></li>
 <li><a href="#about">About</a></li>
 <li><a href="#skills">Skills</a></li>
-<li><a href="#hobbies">Hobbies</a></li>
-<li><a href="#interests">Interests</a></li>
-<li><a href="#agile">Agile</a></li>
 <li><a href="#projects">Projects</a></li>
 <li><a href="#contact">Contact</a></li>
+
 </ul>
 
 </nav>
-</header>
+
+<!-- Hero -->
 
 <section id="home" class="hero">
 
 <div class="hero-text">
 
-<h1>Hello everyone</h1>
+<h3>Hello, I'm</h3>
 
-<h2>Rabiel Lucero</h2>
+<h1>Rabiel Lucero</h1>
 
-<h2>21 years old</h2>
+<h2>Computer Science Student</h2>
 
-<p>BS COMPUTER SCIENCE</p>
+<p>
+Passionate about Web Development,
+Programming, and Software Development.
+I enjoy creating responsive websites
+and solving real-world problems through code.
+</p>
 
-<p>Aspiring SK CHAIRMAN | WEB DEVELOPER</p>
-
-<a href="#projects" class="btn">View Projects</a>
+<a href="#about" class="btn">Explore More</a>
 
 </div>
 
 <div class="hero-image">
 
-<img width="1512" height="2016" alt="picture profile" src="https://github.com/user-attachments/assets/75ec7423-20e7-481e-b97c-93585f349803" />
+<img src="profile.jpg" alt="Profile">
 
 </div>
 
 </section>
+
+</header>
+
+<!-- About -->
 
 <section id="about">
 
+<div class="title">
+
 <h2>About Me</h2>
+
+</div>
+
+<div class="about-container">
+
+<div class="about-image">
+
+<img src="profile.jpg">
+
+</div>
+
+<div class="about-text">
+
+<h3>Who Am I?</h3>
 
 <p>
 
-I am a Computer Science student passionate about software development, web development, and artificial intelligence. I enjoy creating innovative systems that solve real-world problems while continuously improving my programming skills.
+My name is <b>Rabiel Lucero</b>,
+a Bachelor of Science in Computer Science student.
+
+I love learning modern technologies,
+building websites,
+and creating software that helps people.
 
 </p>
 
+<br>
+
+<p>
+
+My goal is to become a Full Stack Web Developer
+and Software Engineer in the future.
+
+</p>
+
+</div>
+
+</div>
+
 </section>
+
+<!-- Skills -->
 
 <section id="skills">
 
-<h2>Skills</h2>
+<div class="title">
 
-<div class="cards">
+<h2>My Skills</h2>
 
-<div class="card">HTML</div>
+</div>
 
-<div class="card">CSS</div>
+<div class="skill-box">
 
-<div class="card">JavaScript</div>
+<div class="skill">
 
-<div class="card">PHP</div>
+<p>HTML</p>
 
-<div class="card">Java</div>
+<div class="progress">
 
-<div class="card">C++</div>
+<span style="width:95%;">95%</span>
 
-<div class="card">MySQL</div>
+</div>
 
-<div class="card">GitHub</div>
+</div>
+
+<div class="skill">
+
+<p>CSS</p>
+
+<div class="progress">
+
+<span style="width:90%;">90%</span>
+
+</div>
+
+</div>
+
+<div class="skill">
+
+<p>JavaScript</p>
+
+<div class="progress">
+
+<span style="width:80%;">80%</span>
+
+</div>
+
+</div>
+
+<div class="skill">
+
+<p>PHP</p>
+
+<div class="progress">
+
+<span style="width:75%;">75%</span>
+
+</div>
+
+</div>
+
+<div class="skill">
+
+<p>C++</p>
+
+<div class="progress">
+
+<span style="width:85%;">85%</span>
+
+</div>
+
+</div>
 
 </div>
 
 </section>
 
-<section id="hobbies">
-
-<h2>Hobbies</h2>
-
-<div class="cards">
-
-<div class="card"><i class="fas fa-gamepad"></i><br>Gaming</div>
-
-<div class="card"><i class="fas fa-code"></i><br>Coding</div>
-
-<div class="card"><i class="fas fa-book"></i><br>Reading</div>
-
-<div class="card"><i class="fas fa-music"></i><br>Music</div>
-
-</div>
-
-</section>
-
-<section id="interests">
-
-<h2>Interests</h2>
-
-<div class="cards">
-
-<div class="card">Artificial Intelligence</div>
-
-<div class="card">Cybersecurity</div>
-
-<div class="card">Web Development</div>
-
-<div class="card">UI/UX Design</div>
-
-<div class="card">Machine Learning</div>
-
-</div>
-
-</section>
-
-<section id="agile">
-
-<h2>Agile Mindset</h2>
-
-<ul>
-
-<li>✔ Sprint Planning</li>
-
-<li>✔ Team Collaboration</li>
-
-<li>✔ Daily Stand-up</li>
-
-<li>✔ Continuous Improvement</li>
-
-<li>✔ Iterative Development</li>
-
-</ul>
-
-</section>
+<!-- Projects -->
 
 <section id="projects">
 
+<div class="title">
+
 <h2>Projects</h2>
 
-<div class="cards">
-
-<div class="card">
-
-<h3>Student Academic Risk Monitoring System</h3>
-
-<p>Predicts students at risk using analytics.</p>
-
 </div>
 
-<div class="card">
-
-<h3>Student Group Allocation System</h3>
-
-<p>Uses optimization algorithms for balanced teams.</p>
-
-</div>
+<div class="project-container">
 
 <div class="card">
 
 <h3>Portfolio Website</h3>
 
-<p>Responsive GitHub Portfolio.</p>
+<p>
+
+Modern responsive portfolio website
+built using HTML, CSS, and JavaScript.
+
+</p>
+
+<a href="#">GitHub Repository</a>
+
+</div>
+
+<div class="card">
+
+<h3>Hotel Reservation System</h3>
+
+<p>
+
+A reservation management system
+developed for hotels and resorts.
+
+</p>
+
+<a href="#">GitHub Repository</a>
+
+</div>
+
+<div class="card">
+
+<h3>Inventory System</h3>
+
+<p>
+
+A system for managing products,
+stocks, and sales.
+
+</p>
+
+<a href="#">GitHub Repository</a>
 
 </div>
 
@@ -188,27 +251,103 @@ I am a Computer Science student passionate about software development, web devel
 
 </section>
 
+<!-- Hobbies -->
+
+<section class="hobbies">
+
+<div class="title">
+
+<h2>Hobbies & Interests</h2>
+
+</div>
+
+<div class="hobby-box">
+
+<div class="item">
+
+<i class="fa-solid fa-laptop-code"></i>
+
+<h3>Coding</h3>
+
+</div>
+
+<div class="item">
+
+<i class="fa-solid fa-gamepad"></i>
+
+<h3>Gaming</h3>
+
+</div>
+
+<div class="item">
+
+<i class="fa-solid fa-book-open"></i>
+
+<h3>Reading</h3>
+
+</div>
+
+<div class="item">
+
+<i class="fa-solid fa-music"></i>
+
+<h3>Music</h3>
+
+</div>
+
+<div class="item">
+
+<i class="fa-solid fa-camera"></i>
+
+<h3>Photography</h3>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Contact -->
+
 <section id="contact">
+
+<div class="title">
 
 <h2>Contact Me</h2>
 
-<form>
+</div>
 
-<input type="text" placeholder="Your Name">
+<div class="contact-box">
 
-<input type="email" placeholder="Your Email">
+<p><i class="fa-solid fa-envelope"></i> rabiel@example.com</p>
 
-<textarea placeholder="Message"></textarea>
+<p><i class="fa-solid fa-phone"></i> +63 912 345 6789</p>
 
-<button>Send</button>
+<p><i class="fa-solid fa-location-dot"></i> Philippines</p>
 
-</form>
+<div class="social">
+
+<a href="#"><i class="fab fa-facebook"></i></a>
+
+<a href="#"><i class="fab fa-github"></i></a>
+
+<a href="#"><i class="fab fa-linkedin"></i></a>
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+</div>
+
+</div>
 
 </section>
 
 <footer>
 
-<p>© 2026 Rabiel Lucero | GitHub Portfolio</p>
+<p>
+
+© 2026 Rabiel Lucero | All Rights Reserved
+
+</p>
 
 </footer>
 
